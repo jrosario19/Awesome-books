@@ -38,11 +38,3 @@ document.getElementById('form').addEventListener('submit', createBook);
 
 retrieveBooks();
 
-function removeBook(i) {
-  const books = JSON.parse(localStorage.getItem('Books'));
-  books.splice(i, 1);
-  localStorage.setItem('Books', JSON.stringify(books));
-  retrieveBooks();
-}
-
-removeBook(1000000);
