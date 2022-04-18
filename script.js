@@ -3,11 +3,11 @@ function retrieveBooks() {
   document.getElementById('books-list').innerHTML = '';
   for (let i = 0; i < books.length; i += 1) {
     document.getElementById('books-list').innerHTML
-          += `<li>
-              <p>${books[i].title}</p>
+          += `<p>${books[i].title}</p>
               <p>${books[i].author}</p>
               <button type="button" onclick="removeBook(${i})">Remove</button>
-          </li>`;
+              <hr>
+              `;
   }
 }
 
