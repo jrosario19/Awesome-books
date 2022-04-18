@@ -45,4 +45,3 @@ function removeBook(i) {
 }
 
 removeBook(1000000);
-
