@@ -5,3 +5,66 @@
   list-style: none;
   text-decoration: none;
 }
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.book-container {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  padding: 7px 5px;
+}
+
+tr:nth-child(even) {
+  background-color: lightgray;
+}
+
+table {
+  border: 1px solid black;
+  border-radius: 7px;
+}
+
+.btn {
+  background-color: #63bdd4;
+  color: white;
+  padding: 5px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+h1 {
+  color: #63bdd4;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+
+hr {
+  border: 1px solid #63bdd4;
+  width: 125px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+h2 {
+  color: #63bdd4;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 250px;
+  height: 30px;
+  padding-left: 5px;
+  border-radius: 5px;
+}
+
+.btn-add {
+  margin-left: 213px;
+}
