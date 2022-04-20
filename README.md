@@ -51,7 +51,11 @@ The deployment updates automatically once the main branch is update.
 
 
 
-### 🤝 Contributing
+## 🤝 Contributing
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the issues page.
+
 
 ## Show your support
 Give a ⭐️ if you like this project!
