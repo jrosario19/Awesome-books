@@ -54,7 +54,7 @@ The deployment updates automatically once the main branch is update.
 ## 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the issues page.
+Feel free to check the [issues page](https://github.com/jrosario19/Awesome-books/issues).
 
 
 ## Show your support
