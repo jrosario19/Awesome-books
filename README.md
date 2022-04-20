@@ -8,7 +8,7 @@ This is a project that allows users to add/remove book from a list. we accomplis
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://jrosario19.github.io/Awesome-books/)
+[Live Demo Link]()
 
 ## Getting Started
 To get started and get a local copy of this project, follow the next intructions:
