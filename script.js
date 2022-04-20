@@ -82,8 +82,4 @@ class Book {
 document.getElementById('form').addEventListener('submit', Book.createBook);
 Book.retrieveBooks();
 
-const currentDate = new Date();
-const date = `${currentDate.getFullYear()}-${(currentDate.getMonth() + 1)}-${currentDate.getDate()}`;
-const time = `${currentDate.getHours()}:${currentDate.getMinutes()}:${currentDate.getSeconds()}`;
-const dateCurrentTime = `${date}, ${time}`;
-datetime.innerHTML = dateCurrentTime;
+
