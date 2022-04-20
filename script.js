@@ -29,15 +29,13 @@ navContact.addEventListener('click', () => {
   navContact.classList.add('active');
   navList.classList.remove('active');
   navAdd.classList.remove('active');
-  
 });
 
 window.onload = function () {
   contact.classList.add('hidden');
   allBooks.classList.add('hidden');
   addBook.classList.remove('hidden');
-  
-}
+};
 
 class Book {
   constructor(title, author) {
