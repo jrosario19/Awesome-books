@@ -8,16 +8,21 @@
 
 body {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   margin: 0 auto;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-direction: column;
   align-items: center;
 }
 
+.wraper {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
 .book-container {
-  width: 500px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   padding: 7px 5px;
@@ -30,6 +35,7 @@ tr:nth-child(even) {
 table {
   border: 1px solid black;
   border-radius: 7px;
+  width: 33vw;
 }
 
 .btn {
@@ -42,7 +48,6 @@ table {
 
 h1 {
   color: #63bdd4;
-  margin-top: 80px;
   margin-bottom: 20px;
 }
 
@@ -59,7 +64,7 @@ h2 {
 }
 
 input {
-  width: 250px;
+  width: 100%;
   height: 30px;
   padding-left: 5px;
   border-radius: 5px;
@@ -68,3 +73,110 @@ input {
 .btn-add {
   margin-left: 213px;
 }
+
+.form-container {
+  width: 250px;
+  align-self: center;
+}
+
+header {
+  width: 100%;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  height: 36px;
+  border: 2px solid black;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.nav-bar-options {
+  display: flex;
+}
+
+.nav-link {
+  margin-right: 10px;
+}
+
+.link span {
+  margin-left: 5px;
+}
+
+.link {
+  color: #63bdd4;
+  font-weight: bold;
+}
+
+.logo {
+  margin-left: 10px;
+  color: #63bdd4;
+  font-size: 1.2vw;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  height: 36px;
+  border: 2px solid black;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.form-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer p {
+  margin-left: 10px;
+  color: #63bdd4;
+  font-weight: bold;
+}
+
+.book-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-title-add {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact p {
+  align-self: flex-start;
+}
+
+.contact-last-paragraph {
+  margin-bottom: 30px;
+}
+
+.hidden {
+  display: none;
+}
+
+.active {
+  color: black;
+}
+
+.date-time p {
+  text-align: right;
+  margin-top: 5px;
+}
+
