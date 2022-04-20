@@ -33,13 +33,25 @@ The deployment updates automatically once the main branch is update.
 
 ## Authors
 
+## Author 1
+
 👤 **Juan Francisco Rosario Suli**
 
 - GitHub: [@jrosario19](https://github.com/jrosario19)
 - Twitter: [@jrosario19](https://twitter.com/jrosario19)
 - LinkedIn: [Juan Fco. Rosario](https://linkedin.com/in/juan-francisco-rosario-suli-44595051)
 
-## 🤝 Contributing
+### Author 2
+
+👤 **Shingirai Bhengesa**
+
+- GitHub: [@ShingiraiBhengesa](https://github.com/ShingiraiBhengesa)
+- Twitter: [@bhengesa](https://twitter.com/bhengesa)
+- LinkedIn: [Shingirai Bhengesa](https://linkedin.com/in/shingirai_bhengesa)
+
+
+
+### 🤝 Contributing
 
 ## Show your support
 Give a ⭐️ if you like this project!
